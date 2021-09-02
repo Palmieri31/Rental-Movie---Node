@@ -27,3 +27,5 @@ create table favorites (
 		constraint fk_favorites_user foreign key(id_user) references users(id) on delete cascade
 	    
 );
+INSERT INTO users (username, email, rol, password) VALUES ('user', 'user@123.com' , 2, '$2a$10$LMnAOGQPxwbwPVUBHYF9EuHU4Smf3/PQqpyulr7616FB/dpt1T8Ju');
+INSERT INTO users (username, email, rol, password) VALUES ('user', 'admin@123.com' , 1, '$2a$10$LMnAOGQPxwbwPVUBHYF9EuHU4Smf3/PQqpyulr7616FB/dpt1T8Ju');

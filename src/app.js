@@ -7,18 +7,6 @@ const { handleErrors } = require('./middlewares/handleErrors');
 
 const app = express();
 
-const whitelist = ['hhtp://localhost:3000'];
-const corsOptions = {
-  origin: (origin, callback) => {
-    const exist = whitelist.some((dominio) => dominio === origin);
-    if (exist) {
-      callback(null, true);
-    } else {
-      callback(new Error('No permitido por CORS'));
-    }
-  },
-};
-
 app.use(cors());
 
 app.use(express.json());
