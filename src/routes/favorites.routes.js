@@ -17,10 +17,5 @@ router.delete(
   [verifyToken, isUserOrAdmin],
   favoritesCtrl.deleteFavorite
 );
-router.delete(
-  '/:id',
-  [verifyToken, isUserOrAdmin],
-  favoritesCtrl.deleteFavorite
-);
 
 module.exports = router;
