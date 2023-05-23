@@ -7,7 +7,20 @@ const { verifyToken, isUserOrAdmin } = require('../middlewares/auth.jwt');
 const { validateFav } = require('../middlewares/validateFav');
 
 router.get('/', [verifyToken, isUserOrAdmin], favoritesCtrl.getFavorite);
-router.post('/:id', [verifyToken, isUserOrAdmin, validateFav], favoritesCtrl.addFavorite);
-router.delete('/:id', [verifyToken, isUserOrAdmin], favoritesCtrl.deleteFavorite);
+router.post(
+  '/:id',
+  [verifyToken, isUserOrAdmin, validateFav],
+  favoritesCtrl.addFavorite
+);
+router.delete(
+  '/:id',
+  [verifyToken, isUserOrAdmin],
+  favoritesCtrl.deleteFavorite
+);
+router.delete(
+  '/:id',
+  [verifyToken, isUserOrAdmin],
+  favoritesCtrl.deleteFavorite
+);
 
 module.exports = router;
