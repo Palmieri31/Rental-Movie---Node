@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.1.0...v1.1.1) (2023-05-23)
+
+
+### Bug Fixes
+
+* change error to spanish ([4a29a1c](https://github.com/Palmieri31/Rental-Movie---Node/commit/4a29a1cac0665f4f762beff20ff2c6ff77d56cd9))
+
 ## [1.1.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.0.2...v1.1.0) (2023-05-23)
 
 
