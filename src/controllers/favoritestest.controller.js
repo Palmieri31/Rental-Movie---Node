@@ -27,7 +27,7 @@ module.exports.addFavorite = async (req, res, next) => {
     );
     res
       .status(200)
-      .json({ message: 'the movie was added to favorites successfully!' });
+      .json({ message: 'the movie was added to favorites success!' });
   } catch (err) {
     next(err);
   }
