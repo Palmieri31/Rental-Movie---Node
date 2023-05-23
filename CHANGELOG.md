@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.1.1...v1.2.0) (2023-05-23)
+
+
+### Features
+
+* multiplicate delete ([78e7861](https://github.com/Palmieri31/Rental-Movie---Node/commit/78e7861e8dce2952028ac4d47559bb569f933e4c))
+
 ### [1.1.1](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.1.0...v1.1.1) (2023-05-23)
 
 
