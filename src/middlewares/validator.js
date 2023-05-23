@@ -4,13 +4,15 @@ module.exports.userValidationRules = () => [
   body('email', 'Your email is empty').not().isEmpty(),
   body('email', 'Your email is not valid').isEmail().normalizeEmail(),
   body('password', 'Your password is empty').not().isEmpty(),
-  body('password', 'Your password must be at least 4 characters').isLength({ min: 4 }),
+  body('password', 'Your password must be at least 4 characters').isLength({
+    min: 4,
+  }),
 ];
 
 module.exports.movieValidationRules = () => [
   body('title', 'The title is empty').not().isEmpty(),
   body('description', 'the description is empty').not().isEmpty(),
-  body('image', 'the image is empty').not().isEmpty(),
+  body('image', 'the image is empty test').not().isEmpty(),
 ];
 
 module.exports.validate = (req, res, next) => {
