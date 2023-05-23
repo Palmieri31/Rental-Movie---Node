@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.2.0...v1.3.0) (2023-05-23)
+
+
+### Features
+
+* new message validator ([7745523](https://github.com/Palmieri31/Rental-Movie---Node/commit/7745523357394f9d73f3ce74c6f478ef70402d6c))
+
+
+### Bug Fixes
+
+* add test in message ([96f4936](https://github.com/Palmieri31/Rental-Movie---Node/commit/96f49360edfb2b57ea1c5be3c551ec51c91f76f3))
+
 ## [1.2.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.1.1...v1.2.0) (2023-05-23)
 
 
