@@ -52,6 +52,7 @@ request si algo está incorrecto.
 
 # Usuarios para ingresar en la base de datos rentalMovie (Mysql)
 INSERT INTO users (username, email, rol, password) VALUES ('user', 'user@123.com' , 2, '$2a$10$LMnAOGQPxwbwPVUBHYF9EuHU4Smf3/PQqpyulr7616FB/dpt1T8Ju');
+
 INSERT INTO users (username, email, rol, password) VALUES ('user', 'admin@123.com' , 1, '$2a$10$LMnAOGQPxwbwPVUBHYF9EuHU4Smf3/PQqpyulr7616FB/dpt1T8Ju');
 
 # Usuarios para loguerse una vez realizado el paso anterior
@@ -60,6 +61,7 @@ USER:
     "email":"user@123.com",
     "password":"password"
 }
+
 ADMIN:
 {
     "email":"admin@123.com",
