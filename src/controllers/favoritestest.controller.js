@@ -9,7 +9,7 @@ module.exports.getFavorite = async (req, res, next) => {
     const favorites = JSON.parse(JSON.stringify(result));
 
     if (!favorites.length) {
-      res.status(404).json({ message: 'no Favorites Movies found' });
+      res.status(404).json({ message: 'Nuevas peliculas favoritas' });
       return;
     }
 
