@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "changelog": "standard-version --skip.version",
     "release": "standard-version"
   },
   "author": "Federico Palmieri",
