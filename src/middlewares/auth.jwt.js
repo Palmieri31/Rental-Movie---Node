@@ -6,13 +6,19 @@ module.exports.verifyToken = async (req, res, next) => {
   try {
     const token = req.headers['x-access-token'];
     if (!token) {
-      res.status(403).json({ message: 'No token provided' });
+      res.status(403).json({ message: 'No token provide' });
       return;
     }
     const decoded = jwt.verify(token, config.SECRET);
     req.userId = decoded.id;
 
-    const result = JSON.parse(JSON.stringify(await pool.query('SELECT username FROM users WHERE id = ? LIMIT 1', [req.userId])));
+    const result = JSON.parse(
+      JSON.stringify(
+        await pool.query('SELECT username FROM users WHERE id = ? LIMIT 1', [
+          req.userId,
+        ])
+      )
+    );
     const user = result[0].username;
 
     if (!user) {
@@ -28,7 +34,13 @@ module.exports.verifyToken = async (req, res, next) => {
 
 module.exports.isAdmin = async (req, res, next) => {
   try {
-    const result = JSON.parse(JSON.stringify(await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [req.userId])));
+    const result = JSON.parse(
+      JSON.stringify(
+        await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [
+          req.userId,
+        ])
+      )
+    );
     const { rol } = result[0];
 
     if (rol !== 1) {
@@ -44,7 +56,13 @@ module.exports.isAdmin = async (req, res, next) => {
 
 module.exports.isUser = async (req, res, next) => {
   try {
-    const result = JSON.parse(JSON.stringify(await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [req.userId])));
+    const result = JSON.parse(
+      JSON.stringify(
+        await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [
+          req.userId,
+        ])
+      )
+    );
     const { rol } = result[0];
 
     if (rol !== 2) {
@@ -60,7 +78,13 @@ module.exports.isUser = async (req, res, next) => {
 
 module.exports.isUserOrAdmin = async (req, res, next) => {
   try {
-    const result = JSON.parse(JSON.stringify(await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [req.userId])));
+    const result = JSON.parse(
+      JSON.stringify(
+        await pool.query('SELECT rol FROM users WHERE id = ? LIMIT 1', [
+          req.userId,
+        ])
+      )
+    );
     const { rol } = result[0];
 
     if (rol <= 0) {
