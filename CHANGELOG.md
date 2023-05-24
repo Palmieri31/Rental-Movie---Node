@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.4.1...v1.6.0) (2023-05-24)
+
+
+### Features
+
+* change package json test --signoff ([4f509a2](https://github.com/Palmieri31/Rental-Movie---Node/commit/4f509a251f69de4a9efa61e3fd837937d6f3139c))
+
 ## [1.5.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.4.1...v1.5.0) (2023-05-24)
 
 
