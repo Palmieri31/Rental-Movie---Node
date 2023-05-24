@@ -13,7 +13,7 @@ module.exports.validateFav = async (req, res, next) => {
     const { count } = result[0];
 
     if (count) {
-      res.status(500).json({ message: 'the movie is already favorites test' });
+      res.status(500).json({ message: 'the movie is already favorites' });
       return;
     }
 
