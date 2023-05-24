@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.8.2...v1.9.0) (2023-05-24)
+
+
+### Bug Fixes
+
+* ignore version 2 ([1c56967](https://github.com/Palmieri31/Rental-Movie---Node/commit/1c5696771decd31ec3255420eae8592766065887))
+
 ### [1.8.2](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.8.1...v1.8.2) (2023-05-24)
 
 
