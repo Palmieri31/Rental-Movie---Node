@@ -1,6 +1,6 @@
 {
   "name": "api",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "description": "system dedicated to movie rental",
   "main": "index.js",
   "scripts": {
