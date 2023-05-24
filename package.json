@@ -1,11 +1,11 @@
 {
   "name": "api",
-  "version": "1.4.1",
+  "version": "1.4.0",
   "description": "system dedicated to movie rental",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "release": "standard-version --releaseCommitMessageFormat \"chore(release): {name} {message} \""
+    "release": "standard-version"
   },
   "author": "Federico Palmieri",
   "license": "ISC",
