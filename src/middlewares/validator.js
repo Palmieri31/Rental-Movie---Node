@@ -12,7 +12,7 @@ module.exports.userValidationRules = () => [
 module.exports.movieValidationRules = () => [
   body('title', 'The title is empty').not().isEmpty(),
   body('description', 'the description is empty').not().isEmpty(),
-  body('image', 'the image is empty test').not().isEmpty(),
+  body('image', 'the image is empty').not().isEmpty(),
 ];
 
 module.exports.validate = (req, res, next) => {
