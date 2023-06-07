@@ -1,6 +1,13 @@
 # Changelog
 
 
+### [1.0.1](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.14.0...v1.0.1) (2023-06-07)
+
+
+### Bug Fixes
+
+* change version ([ee539da](https://github.com/Palmieri31/Rental-Movie---Node/commit/ee539da23d72ded2e7671f3147b4b35bf42c6881))
+
 ## [1.14.0](https://github.com/Palmieri31/Rental-Movie---Node/compare/v1.10.0...v1.14.0) (2023-06-07)
 
 
