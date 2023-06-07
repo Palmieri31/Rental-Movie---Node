@@ -1,7 +1,6 @@
 {
   "skip": {
     "bump": true,
-    "commit": true,
     "tag": true
   },
   "types": [
