@@ -2,7 +2,7 @@
   "skip": {
     "tag": true
   },
-  "header": "# Changelog\n\n",
+  "header": "# Changelog\n\n ## Version {{version}} {{date}}\n\n",
   "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
   "types": [
     { "type": "feat", "section": "Features" },
