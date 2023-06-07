@@ -1,8 +1,10 @@
 {
   "skip": {
+    "bump": true,
     "tag": true
   },
-  "bumpFiles": [],
+  "header": "Changelog\n\n",
+  "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
   "types": [
     { "type": "feat", "section": "Features" },
     { "type": "fix", "section": "Bug Fixes" },
