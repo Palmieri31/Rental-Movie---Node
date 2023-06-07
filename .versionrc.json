@@ -2,6 +2,7 @@
   "skip": {
     "tag": true
   },
+  "bumpFiles": [],
   "types": [
     { "type": "feat", "section": "Features" },
     { "type": "fix", "section": "Bug Fixes" },
