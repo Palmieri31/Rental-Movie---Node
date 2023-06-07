@@ -1,6 +1,7 @@
 {
   "skip": {
-    "bump": true
+    "bump": true,
+    "tag": true
   },
   "types": [
     { "type": "feat", "section": "Features" },
