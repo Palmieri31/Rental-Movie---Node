@@ -1,6 +1,5 @@
 {
   "skip": {
-    "bump": true,
     "tag": true
   },
   "types": [
