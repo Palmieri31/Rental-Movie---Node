@@ -1,7 +1,5 @@
 {
-  "skip": {
-    "tag": true
-  },
+  "skip": {},
   "header": "# Changelog\n\n",
   "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
   "types": [
