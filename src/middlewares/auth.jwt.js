@@ -44,7 +44,7 @@ module.exports.isAdmin = async (req, res, next) => {
     const { rol } = result[0];
 
     if (rol !== 1) {
-      res.status(403).json({ message: 'require admin rol' });
+      res.status(403).json({ message: 'require admin role' });
       return;
     }
 
