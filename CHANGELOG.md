@@ -18,6 +18,7 @@
 * message ([07e5b8e](https://github.com/Palmieri31/Rental-Movie---Node/commit/07e5b8e31971a8ffe17abfc2b724fb0e41f1259e))
 * new changelog ([7c814b8](https://github.com/Palmieri31/Rental-Movie---Node/commit/7c814b870c911b7305030bb0199859844433d6dd))
 * remove tags ([408cae3](https://github.com/Palmieri31/Rental-Movie---Node/commit/408cae3a6011db38db2ba14df18dea9c9bd0a546))
+* validateFav ([1283ca7](https://github.com/Palmieri31/Rental-Movie---Node/commit/1283ca729110a10626e7370c4de0ee075556ace4))
 * verify ([a29d606](https://github.com/Palmieri31/Rental-Movie---Node/commit/a29d6063065ba78b941f12c53a370d9727118bdd))
 
 
