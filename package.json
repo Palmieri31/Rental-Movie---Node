@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "changelog": "conventional-changelog .conventional-changelog.json -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog conventional-changelogrc.json"
   },
   "author": "Federico Palmieri",
   "license": "ISC",

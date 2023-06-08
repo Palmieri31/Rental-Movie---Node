@@ -1,4 +1,7 @@
 {
   "preset": "angular",
-  "releaseCount": 0
+  "releaseCount": 0,
+  "infile": "CHANGELOG",
+  "sameFile": true,
+  "stdout": true
 }
