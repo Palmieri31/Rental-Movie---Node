@@ -1,8 +1,10 @@
 ## <small>1.0.2 (2023-06-08)</small>
 
+* feat: change message 10 ([1a553a9](https://github.com/Palmieri31/Rental-Movie---Node/commit/1a553a9))
 * feat: remove changelog ([acb7356](https://github.com/Palmieri31/Rental-Movie---Node/commit/acb7356))
 * change version ([7358bc7](https://github.com/Palmieri31/Rental-Movie---Node/commit/7358bc7))
 * changelog update ([c452ce3](https://github.com/Palmieri31/Rental-Movie---Node/commit/c452ce3))
+* new changelog ([2a53126](https://github.com/Palmieri31/Rental-Movie---Node/commit/2a53126))
 * new changelog ([136ddcf](https://github.com/Palmieri31/Rental-Movie---Node/commit/136ddcf))
 * remove ([59be57f](https://github.com/Palmieri31/Rental-Movie---Node/commit/59be57f))
 * fix: add changelog.md ([b92ef15](https://github.com/Palmieri31/Rental-Movie---Node/commit/b92ef15))
