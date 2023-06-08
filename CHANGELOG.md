@@ -3,9 +3,11 @@
 
 ### Bug Fixes
 
+* add changelog.md ([b92ef15](https://github.com/Palmieri31/Rental-Movie---Node/commit/b92ef15d28e46bda86ec9127ff6cc414229e9f3d))
 * change to conventinal-changelog-cli ([a9e708e](https://github.com/Palmieri31/Rental-Movie---Node/commit/a9e708ea001e028052d8e8d232fd2086144055c3))
 * change version ([66b6d0a](https://github.com/Palmieri31/Rental-Movie---Node/commit/66b6d0a6e7c00ce470e400d5463341e1d5a62b08))
 * change version ([ee539da](https://github.com/Palmieri31/Rental-Movie---Node/commit/ee539da23d72ded2e7671f3147b4b35bf42c6881))
+* message ([07e5b8e](https://github.com/Palmieri31/Rental-Movie---Node/commit/07e5b8e31971a8ffe17abfc2b724fb0e41f1259e))
 * remove tags ([408cae3](https://github.com/Palmieri31/Rental-Movie---Node/commit/408cae3a6011db38db2ba14df18dea9c9bd0a546))
 * verify ([a29d606](https://github.com/Palmieri31/Rental-Movie---Node/commit/a29d6063065ba78b941f12c53a370d9727118bdd))
 
